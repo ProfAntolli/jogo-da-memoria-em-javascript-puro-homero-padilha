@@ -1,1 +1,32 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8203264&assignment_repo_type=AssignmentRepo)
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+
+    <script src="./js/login.js" defer="defer"></script>
+
+    <title>Jogo Da Memória | Login </title>
+</head>
+
+<body>
+    <form class="login-form">
+        <div class="login-header">
+            <img src="./src/brain.png" alt="brain icon" />
+            <h1>Jogo Da Memória</h1>
+            <br>
+            <h1>Insira seu nome jogador!</h1>
+        </div>
+
+        <input type="text" placeholder="Name" class="login-input" />
+
+        <button type="submit" class="login-button" disabled > Play </button>
+
+    </form>
+</body>
+</html>
